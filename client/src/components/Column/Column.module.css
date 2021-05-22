@@ -1,0 +1,38 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 400px;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px;
+    height: max-content;
+    position: relative;
+}
+
+.column .btnDelete {
+    position: absolute;
+    background-color: transparent;
+    width: max-content;
+    top: 10px;
+    right: 5px;
+    border: none;
+}
+.droppableContent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.title {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+input {
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px #888;
+    width: 80%;
+}

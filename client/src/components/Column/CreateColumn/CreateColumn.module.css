@@ -1,0 +1,59 @@
+.create {
+    /* width: 300px; */
+    height: max-content;
+    width: 300px;
+    padding: 5px 10px;
+}
+
+.create form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.create .first {
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(180, 180, 180, 0.3);
+    padding: 10px;
+    transition: background-color 0.2s ease;
+    width: max-content;
+}
+
+.create .first:hover {
+    background-color: rgba(100, 100, 100, 0.3);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.form input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid cornflowerblue;
+}
+
+.form .editBox {
+    display: flex;
+}
+
+.form .editBox .btnSave {
+    width: max-content;
+}
+
+.form .editBox .btnDelete {
+    width: max-content;
+    background-color: transparent;
+    border: none;
+}
+
+.form .editBox .btnDelete:hover {
+    color: cornflowerblue;
+}
